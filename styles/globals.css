@@ -24,3 +24,71 @@ a {
     background: black;
   }
 }
+
+div {
+  
+  display: block;
+  align-items: center;
+  justify-content: center;
+  background-color: #36393f;
+  
+  padding: .625rem;
+  margin: .625rem;
+  
+  border-radius: .625rem;
+  text-align: left;
+
+}
+
+#consulta {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+  background-color: #2f3136;
+  color: white;
+  padding: .625rem;
+  margin: .625rem;
+  
+  border-radius: .625rem;
+}
+
+img {
+  width: 8.75rem;
+  object-fit: cover;
+  border-radius: .625rem;
+}
+
+#boton {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+  background-color: #2f3136;
+  color: white;
+  padding: .625rem;
+  margin: .625rem;
+  
+  border-radius: .625rem;
+}
+
+#boton:hover {
+  background-color: #36393f;
+  cursor: pointer;
+}
+
+#texto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+  background-color: #2f3136;
+  color: white;
+  padding: .625rem;
+  margin: .625rem;
+  
+  border-radius: .625rem;
+}
